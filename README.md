@@ -1,5 +1,5 @@
 # java-programs
-A repo containing all the beginner java programs that I practiced when I was learning java in college.
+A repo containing all the beginner java programs that I practiced when I was learning java for the first time.
 
 ## Endnote
 Thank you for reading!
