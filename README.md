@@ -1,7 +1,7 @@
 # ☕ Java Programs
 A repo containing all the beginner java programs that I practiced when I was learning java for the first time.
 
-## Concept Demonstration Programs
+## 📚 Concept Demonstration Programs
 
 1. PrintStatement  
 2. TakeInput1  
@@ -16,10 +16,10 @@ A repo containing all the beginner java programs that I practiced when I was lea
 11. DataStructures  
 12. FileHandlingDemo
 
-## Problems
+## 💡 Problems
 
 (soon)
 
-## Endnote
+## ✍️ Endnote
 Thank you for reading!
 Support me on https://buymeacoffee.com/saad1inc
