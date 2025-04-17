@@ -1,8 +1,8 @@
-# Sorting Algorithms
+# 🔀 List Of Sorting Algorithms
 
 Sorting algorithms are techniques used to arrange data in a specific order (typically ascending or descending). There are many sorting algorithms, each with its own approach, advantages, and drawbacks. Below is a summary of the most common ones.
 
-## 1. Bubble Sort
+## 1. Bubble Sort 🫧
 **Overview**:  
 This algorithm repeatedly steps through the list, compares adjacent items, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
@@ -15,7 +15,7 @@ This algorithm repeatedly steps through the list, compares adjacent items, and s
 
 ---
 
-## 2. Selection Sort
+## 2. Selection Sort 👉
 **Overview**:  
 This algorithm works by selecting the smallest (or largest, depending on sorting order) element from the unsorted portion of the list and swapping it with the first unsorted element.
 
@@ -28,7 +28,7 @@ This algorithm works by selecting the smallest (or largest, depending on sorting
 
 ---
 
-## 3. Insertion Sort
+## 3. Insertion Sort 📩
 **Overview**:  
 It builds the sorted list one item at a time. It takes each element from the unsorted portion of the list and inserts it into the correct position within the sorted portion.
 
@@ -41,7 +41,7 @@ It builds the sorted list one item at a time. It takes each element from the uns
 
 ---
 
-## 4. Merge Sort
+## 4. Merge Sort 🤝
 **Overview**:  
 This is a divide-and-conquer algorithm. It divides the list into two halves, sorts each half recursively, and then merges the sorted halves.
 
@@ -54,7 +54,7 @@ This is a divide-and-conquer algorithm. It divides the list into two halves, sor
 
 ---
 
-## 5. Quick Sort
+## 5. Quick Sort 🚀
 **Overview**:  
 This algorithm picks an element (called a pivot) from the list and partitions the other elements into two sub-arrays: one with elements smaller than the pivot and one with elements larger. The sub-arrays are then sorted recursively.
 
@@ -67,9 +67,9 @@ This algorithm picks an element (called a pivot) from the list and partitions th
 
 ---
 
-## 6. Heap Sort
+## 6. Heap Sort 📚
 **Overview**:  
-This algorithm uses a binary heap data structure. It first builds a max heap (or min heap) from the input list, then repeatedly extracts the maximum element from the heap and places it in the sorted list.
+This algorithm uses a binary heap data structure. It first builds a max heap (or min heap) from the input list, then repeatedly extracts the maximum (or minimum) element from the heap and places it in the sorted list.
 
 - **Best-case time complexity**: \(O(n \log n)\)
 - **Worst-case time complexity**: \(O(n \log n)\)
@@ -80,7 +80,7 @@ This algorithm uses a binary heap data structure. It first builds a max heap (or
 
 ---
 
-## 7. Radix Sort
+## 7. Radix Sort 🧮
 **Overview**:  
 A non-comparative sorting algorithm. It sorts numbers digit by digit starting from the least significant digit (LSD) or most significant digit (MSD).
 
@@ -93,7 +93,7 @@ A non-comparative sorting algorithm. It sorts numbers digit by digit starting fr
 
 ---
 
-## 8. Counting Sort
+## 8. Counting Sort 🔢
 **Overview**:  
 This algorithm assumes that the input consists of integers within a small range. It counts the number of occurrences of each distinct element and uses this information to place the elements in sorted order.
 
@@ -106,7 +106,7 @@ This algorithm assumes that the input consists of integers within a small range.
 
 ---
 
-## 9. Bucket Sort
+## 9. Bucket Sort 🪣
 **Overview**:  
 This algorithm divides the elements into different "buckets" and then sorts each bucket individually, often using another sorting algorithm like insertion sort. The sorted buckets are then combined.
 
@@ -119,7 +119,7 @@ This algorithm divides the elements into different "buckets" and then sorts each
 
 ---
 
-## 10. Shell Sort
+## 10. Shell Sort 🐚
 **Overview**:  
 Shell sort generalizes insertion sort to allow the exchange of items that are far apart. The idea is to arrange the list so that, starting anywhere, taking every \(k\)-th element produces a sorted list.
 
@@ -132,7 +132,7 @@ Shell sort generalizes insertion sort to allow the exchange of items that are fa
 
 ---
 
-## 11. Tim Sort
+## 11. Tim Sort 🧸
 **Overview**:  
 A hybrid sorting algorithm derived from merge sort and insertion sort. It is the default sorting algorithm in Python (`sorted()` function).
 
