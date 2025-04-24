@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.*;
 
 public class StudentProgressReport {
 
@@ -20,7 +21,7 @@ public class StudentProgressReport {
         sem_count = Integer.parseInt(scanner.nextLine()); 
         if (sem_count <= 0) {
             System.out.println("\nNo semesters to make progress report for!");
-            System.exit();
+            System.exit(1);
         }
         
 
@@ -63,7 +64,7 @@ public class StudentProgressReport {
                 sub_marks[i][j] = scanner.nextInt();
                 if (sub_marks[i][j] > max_marks) {
                     System.out.println("\nMarks/Points cannot be more than "+max_marks+". Please try again!");
-                    System.exit();
+                    System.exit(1);
                 }
             }
 
